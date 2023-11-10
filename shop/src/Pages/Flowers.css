@@ -1,0 +1,17 @@
+#flower1{
+    width: 18rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#flower2{
+    width: 18rem;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    top: 17%;
+    left: 30%;
+}

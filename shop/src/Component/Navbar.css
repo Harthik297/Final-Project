@@ -1,0 +1,112 @@
+#Navbar{
+    display: flex;
+    background-color: #FFB219;
+}
+
+.logo{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+svg{
+    margin-right: 20px;
+}
+#Shoplogo{
+    height: 50px;
+}
+#Mobile i{
+    color: #FFEDCB;
+    transition: 0.3s;
+}
+
+#Mobile{
+    display: none;
+}
+#Column{
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .logo{
+       display: none;
+    }
+    #Column{
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 135px;
+        right: -300px;
+        width: 300px;
+        height: 90vh;
+        background-color: #2F4858;
+        box-shadow: 0 40px 60px rgb(0, 0, 0,0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s;
+    }
+    #Column.active{
+        right: 0px;
+        transform: matrix(0);
+    }
+    .MobileLogo{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: 0.3s;
+        margin-bottom: 25px;
+        color: #FFB219;
+
+    }
+    .MobileLogo:hover{
+        transform: scale(1.1);
+    }
+    #Mobile{
+        display: block;
+        border: 2px solid white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+        cursor: pointer; 
+        border-radius: 5px;
+        color: #FFEDCB;
+        
+    }
+    
+    #login{
+        background-color: #FFB219;
+        transition: 0.3s;
+        cursor: pointer; 
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    #login:hover{
+        background-color:#eb9e05;
+        transform: scale(1.1);
+        
+    }
+    #signup{
+        
+            border: 2px solid #FFB219;
+            background-color: transparent;
+            color: black;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-size: 16px;
+            cursor: pointer;  
+            color: black;
+            transition: 0.3s;
+            margin-bottom: 30px;
+    }
+    #signup:hover{
+        background-color: #eb9e05;
+        color: black;
+        border: 2px solid #eb9e05;
+        transform: scale(1.1);
+    }
+}

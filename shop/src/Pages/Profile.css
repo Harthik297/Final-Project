@@ -1,0 +1,43 @@
+#background{
+    background-color: #2F4858;
+    text-align: center;
+    padding-bottom: 10%;
+}
+#head{
+    color: #FFB219;
+    padding-top: 10%;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 80px;
+}
+#login{
+    background-color: #FFB219;
+    transition: 0.3s;
+    cursor: pointer; 
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+#login:hover{
+    background-color:#eb9e05;
+    transform: scale(1.1);
+    
+}
+#signup{
+    
+        border: 2px solid #FFB219;
+        background-color: transparent;
+        color: black;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 16px;
+        cursor: pointer;  
+        color: black;
+        transition: 0.3s;
+        margin-bottom: 30px;
+}
+#signup:hover{
+    background-color: #eb9e05;
+    color: black;
+    border: 2px solid #eb9e05;
+    transform: scale(1.1);
+}
