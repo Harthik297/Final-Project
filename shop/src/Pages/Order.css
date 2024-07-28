@@ -1,0 +1,47 @@
+#next{
+    background-color: blue;
+    border: 0cap;
+    position: relative;
+    margin-bottom: 8px;
+    margin-left: 80%;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+}
+#back{
+    background-color: red;
+    border: 0cap;
+    position:relative;
+    margin-bottom: 8px;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+#pay{
+    background-color: green;
+    border: 0cap;
+    position: relative;
+    margin-bottom: 8px;
+    margin-left: 80%;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+#return{
+    color: blue;
+    text-decoration: underline;
+}
+#return:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+#background{
+  background-color: rgb(29, 40, 56);
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+#text{
+    color: #eb9e05;
+    
+}
+#text1{
+    color: white;
+
+}
+
+#login{
+    background-color: #FFB219;
+    transition: 0.3s;
+    cursor: pointer; 
+    position: relative;
+    margin-bottom: 30px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+#login:hover{
+    background-color:#eb9e05;
+    transform: scale(1.1);
+    
+}
+#signup{
+    
+        border: 2px solid #FFB219;
+        background-color: transparent;
+        position: relative;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;  
+        color: black;
+        transition: 0.3s;
+        margin-bottom: 30px;
+        padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+#signup:hover{
+    background-color: #eb9e05;
+    color: black;
+    border: 2px solid #eb9e05;
+    transform: scale(1.1);
+}
